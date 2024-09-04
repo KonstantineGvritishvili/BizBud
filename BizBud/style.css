@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    border: 1px solid grey;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+}
+.biz1 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.biz1{
+    padding: 0px 30px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 18px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+li a:hover{
+    color: blueviolet;
+    transition: 0.4s;
+}
+.biz2 button{
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.biz2 button:hover{
+    background-color: #1D1D36;
+    transition: 0.5s;
+}
+.biz2{
+    padding: 0px 25px;
+}
+#home{
+    scroll-behavior: smooth;
+}
+#home img{
+    width: 100%;
+    position: relative;
+}
+.power{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 40%;
+    left: 10%;
+    gap: 30px;
+}
+.power h1{
+    font-size: 60px;
+    width: 550px;
+}
+.power p{
+    font-size: 25px;
+    width: 388px;
+}
+.power button{
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.power  button:hover{
+    background-color: #1D1D36;
+    transition: 0.5s;
+}
+.ser1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 250px;
+}
+.ser{
+    text-align: center;
+}
+.ser h5{
+    color: blueviolet;
+}
+.ser h1{
+    font-weight: 2000;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    padding-top: 90px;
+}
+.bus1 img{
+    width: 35%;
+}
+.bus1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.bus2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bus2 p{
+    text-align: center;
+    width: 300px;
+}
+
+.aco1 img{
+    width: 35%;
+}
+.aco1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.aco2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.aco2 p{
+    text-align: center;
+    width: 300px;
+}
+
+.fin1 img{
+    width: 35%;
+}
+.fin1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.fin2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.fin2 p{
+    text-align: center;
+    width: 300px;
+}
+.numbers{
+    border: #16163F 1px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 380px;
+    gap: 30px;
+    background-color: #16163F;
+}
+.numbers h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 2000;
+}
+.num1{
+    display: flex;
+    gap: 40px;
+}
+.num1 h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 9000;
+}
+.num1 p{
+    color: white;
+}
+.wiwi{
+    border: 1px solid white;
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+}
+.wi{
+    display: flex;
+    align-items: center;
+}
+#about{
+    display: flex; 
+    justify-content: space-between;
+    height: 827px;
+}
+.ab{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    padding-left: 150px;
+}
+.ab h4{
+    color: blueviolet;
+}
+.ab h1{
+    width: 290px;
+    font-size: 35px;
+}
+.ab p{
+    width: 400px;
+}
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9E3FFD;
+    background-color: #9E3FFD;
+    color: white;
+    gap: 40px;
+    width: 100%;
+    height: 400px;
+}
+#testimonials h1{
+    font-size: 45px;
+    width: 600px;
+    text-align: center;
+}
+.tst p{
+    text-align: center;
+    color: white;
+}
+.pp{
+
+    border: 1px solid white;
+    width: 7px;
+    height: 7px;
+    border-radius: 25px;
+    background-color: white;
+}
+.tst2{
+    display: flex;
+    gap: 10px;
+}
+#clients{
+    border: 1px solid #F8F0FF;
+    background-color: #F8F0FF;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#clients hr{
+    width: 100%;
+    border: none;
+    height: 1px;
+    color: white;
+    background-color: white;
+}
+#clients h2{
+    font-size: 17px;
+}
+.bar{
+    display: flex;
+    gap: 190px;
+    padding-top: 20px;
+}
+.work{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.work2 h3{
+    color: #9E3FFD;
+}
+.work2 h1{
+    font-size: 30px;
+}
+.work2 a{
+    color: black;
+    text-decoration: none;
+}
+.work2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.work4{
+    display: flex;
+    gap: 15px;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.first input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    outline: none;
+}
+.first input:hover{
+    border-bottom: 2px solid #9E3FFD;
+}
+.first label{
+    font-size: 13px;
+}
+.names{
+    display: flex;
+    gap: 20px;
+}
+.I{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#em{
+    width: 100%;
+}
+.mes{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#le{
+    width: 100%;
+}
+.first button{
+    height: 43px;
+    width: 30%;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;    
+}
+.first button:hover{
+    background-color: #1D1D36;
+    transition: 0.5s;
+}
+.img img{
+    width: 100%;
+}
+.wix{
+    border: 1px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
